@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Quiz Interativo</h1>
+    <div id="quizPage">
+        <h2 id="question"></h2>
+        <h2>Opções</h2>
+        <div>
+            <button type="button" class="alternative" id="options0" value="0"></button>
+        </div>
+        <div>
+            <button type="button" class="alternative" id="options1" value="1"></button>
+        </div>
+        <div>
+            <button type="button" class="alternative" id="options2" value="2"></button>
+        </div>
+        <div>
+            <button type="button" class="alternative" id="options3" value="3"></button>
+        </div>
+        <h3 id="statusAnswer"></h3>
+        <button id="reload" style="display:none;">Próxima Pergunta</button>
+    </div>
+
+    <div id="scorePage">
+        <h2>Quiz Finalizado!</h2>
+        <h3 id="finalScore"></h3>
+        <button id="restart">Refazer o Quiz</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

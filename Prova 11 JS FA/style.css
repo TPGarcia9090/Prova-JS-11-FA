@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+h1, h2 {
+    color: #333;
+}
+button.alternative, #reload, #restart {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+}
+button:hover, #reload:hover, #restart:hover {
+    background-color: #0056b3;
+}
+#statusAnswer {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+#scorePage {
+    display: none;
+}
